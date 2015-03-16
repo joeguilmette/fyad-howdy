@@ -23,6 +23,6 @@ $wp_admin_bar->add_node( array(
 add_filter( 'admin_bar_menu', 'replace_howdy',25 );
 
 // Hide Admin Bar
-add_filter('show_admin_bar', '__return_false');
+// add_filter('show_admin_bar', '__return_false');
 
 ?>
